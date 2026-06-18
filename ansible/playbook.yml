@@ -10,6 +10,6 @@
     - name: Restart Tomcat Manually
       shell: |
         /opt/tomcat/bin/shutdown.sh || true
-  	  sleep 5
-  	  /opt/tomcat/bin/startup.sh 
+        sleep 5
+        /opt/tomcat/bin/startup.sh 
 
